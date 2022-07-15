@@ -76,7 +76,6 @@ namespace AudioMog.Terminal
 				catch (Exception e)
 				{
 					Logger.Error($"{e}");
-					shouldWaitForInputOnceDone = true;
 				}
 				Logger.Log("");
 			}
